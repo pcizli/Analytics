@@ -2,6 +2,9 @@ package demo.analytics;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+/**
+ * A formatter that provides static methods that handle things such as POJO's string representation or JSON format.
+ */
 public class Formatter {
 
     public static String toJSON(Result result) {
