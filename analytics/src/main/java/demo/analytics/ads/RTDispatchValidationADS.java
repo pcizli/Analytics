@@ -53,6 +53,7 @@ public class RTDispatchValidationADS extends AggregateDataSource {
             ret.add(validateRTDispatch(result));
         }
 
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
+        return ret;
     }
 }
